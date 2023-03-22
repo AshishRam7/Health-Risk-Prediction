@@ -12,7 +12,12 @@ function Form() {
   return (
     <div>
         <form  action = "http://localhost:5000/login" method = "post" className="form">
-            <h1>Enter the patient vitals below</h1>
+            <h1>Enter the patient Details & vitals below</h1>
+            <h2>Enter your name</h2>
+            <input type="text" name="name1" ></input><br/>
+            <h2>Enter your email</h2>
+            <input type="text" name="email1" ></input><br/>
+
             <h2>Enter your Age</h2><br/>
             <input type="number" name="age" ></input><br/>
             <h2>Enter your restingbp</h2><br/>
