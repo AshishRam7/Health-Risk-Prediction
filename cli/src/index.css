@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:  black	;
+  color:white;
+  font-family: 'Poppins', sans-serif;
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.btn{
+  margin-top: 50px;
+  height: 50px;
+  width:90px;
+}
+.form{
+  text-align: center;
+  width: 800px;
+  padding: 50px;
+  margin: 20px;
+  margin-left: 500px;
+  border-radius: 25px;
+  background: rgba( 255, 255, 255, 0.1 );
+
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4.5px );
+-webkit-backdrop-filter: blur( 4.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+input{
+  height:30px;
+}
+select{
+  height:30px;
+  width:100px;
+}
+
